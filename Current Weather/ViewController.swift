@@ -9,6 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet var cityName: UITextField!
+    
+    @IBOutlet var weatherDescription: UILabel!
+    
+    @IBAction func findWeather(sender: AnyObject) {
+        print("working")
+        
+        weatherDescription.text = cityName.text
+        
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
