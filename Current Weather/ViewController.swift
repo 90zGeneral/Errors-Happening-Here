@@ -22,6 +22,9 @@ class ViewController: UIViewController {
         
         
     }
+    
+    //Testing Testing
+    let url = NSURL(string: "https://www.facebook.com")
 
     override func viewDidLoad() {
         super.viewDidLoad()
