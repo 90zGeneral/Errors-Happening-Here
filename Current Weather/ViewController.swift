@@ -22,13 +22,24 @@ class ViewController: UIViewController {
         
         
     }
-    
-    //Testing Testing
-    let url = NSURL(string: "https://www.facebook.com")
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //Testing Testing
+        let url = NSURL(string: "https://www.weather.com")!
+        
+        let task = NSURLSession.sharedSession().dataTaskWithURL(url) { (data, response, error) in
+            if let urlContent = data {
+                print(urlContent)
+            }else {
+                
+            }
+        }
+        
+        task.resume()
+        
     }
 
     override func didReceiveMemoryWarning() {
