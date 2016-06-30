@@ -12,6 +12,8 @@
 		D52AE9111D1F46E000F62AC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52AE90F1D1F46E000F62AC1 /* Main.storyboard */; };
 		D52AE9131D1F46E000F62AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52AE9121D1F46E000F62AC1 /* Assets.xcassets */; };
 		D52AE9161D1F46E000F62AC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52AE9141D1F46E000F62AC1 /* LaunchScreen.storyboard */; };
+		D58615121D25DC2A0010ACD8 /* grey-wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D58615111D25DC2A0010ACD8 /* grey-wood.jpg */; };
+		D58615141D25DC360010ACD8 /* vintage_paper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D58615131D25DC360010ACD8 /* vintage_paper.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D52AE9121D1F46E000F62AC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D52AE9151D1F46E000F62AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D52AE9171D1F46E000F62AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58615111D25DC2A0010ACD8 /* grey-wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "grey-wood.jpg"; sourceTree = "<group>"; };
+		D58615131D25DC360010ACD8 /* vintage_paper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vintage_paper.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +61,21 @@
 				D52AE90B1D1F46E000F62AC1 /* AppDelegate.swift */,
 				D52AE90D1D1F46E000F62AC1 /* ViewController.swift */,
 				D52AE90F1D1F46E000F62AC1 /* Main.storyboard */,
+				D58615151D25E82E0010ACD8 /* Images */,
 				D52AE9121D1F46E000F62AC1 /* Assets.xcassets */,
 				D52AE9141D1F46E000F62AC1 /* LaunchScreen.storyboard */,
 				D52AE9171D1F46E000F62AC1 /* Info.plist */,
 			);
 			path = "Current Weather";
+			sourceTree = "<group>";
+		};
+		D58615151D25E82E0010ACD8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D58615131D25DC360010ACD8 /* vintage_paper.jpg */,
+				D58615111D25DC2A0010ACD8 /* grey-wood.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D58615141D25DC360010ACD8 /* vintage_paper.jpg in Resources */,
 				D52AE9161D1F46E000F62AC1 /* LaunchScreen.storyboard in Resources */,
+				D58615121D25DC2A0010ACD8 /* grey-wood.jpg in Resources */,
 				D52AE9131D1F46E000F62AC1 /* Assets.xcassets in Resources */,
 				D52AE9111D1F46E000F62AC1 /* Main.storyboard in Resources */,
 			);
@@ -286,6 +302,7 @@
 				D52AE91C1D1F46E000F62AC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
